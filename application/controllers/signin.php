@@ -1,5 +1,16 @@
-<?php
+<?php 
 class Signin extends CI_Controller{
+	 public function index()
+	{
+		echo "header";
+		
+		$this->load->view('includes/header');
+		$this->load->view('signin_page');	
+		$this->load->view('includes/footer');
+		$this->load->helper('form');
+		$this->load->helper('url');
+		
+	} //Ends Index Function
 	
 	public function validate_credentials(){
 		$this->load->view('signin_page');

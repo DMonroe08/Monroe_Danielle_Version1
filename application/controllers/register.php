@@ -2,8 +2,9 @@
 	
 class Register extends CI_Controller{
 	
-	function index()
+	public function index()
 	{
+		echo "header";
 		$this->load->helper('form');
 		$this->load->helper('url');
 		$this->load->view('includes/header');
@@ -12,7 +13,7 @@ class Register extends CI_Controller{
 		
 	} //Ends Index Function
 	
-	function create_user()
+	public function create_user()
 	{
 		echo "HIIII";
 		$this->load->helper('form');

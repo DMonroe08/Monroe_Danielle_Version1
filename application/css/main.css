@@ -1,0 +1,11 @@
+body{
+	background-color: #444444;
+}
+
+
+
+
+.tabs li{
+	display:inline;
+	text-decoration: none;
+}

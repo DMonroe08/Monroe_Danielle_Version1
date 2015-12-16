@@ -3,8 +3,8 @@
 <html lang="en">
 <head>
 	<meta http-equiv="Content Type" content="text/html; charset=utf-8">
-	<title>Sign Up</title>
-	<link href="http://fonts.googleapis.com/css?family=Arbutus+Slab" rel="stylesheet" type="text/">
+	<title>Groovie Smoothie</title>
+	<link rel="stylesheet" href="css/main.css" type="text/css"/>
 </head>
 <!DOCTYPE html>
 <html lang="en">
@@ -26,5 +26,9 @@
 			<li><a href="index.php/nav/order_page">ORDER</a></li>
 			<li><a href="index.php/nav/login_page">login</a></li>
 		</ul>
+		
+		
 	</div><!--Ends Tabs Div-->
 </div><!--Ends Nav Div-->
+
+		

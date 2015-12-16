@@ -1,8 +1,9 @@
 
 
-
+<?php echo index();?>
 <div id="signin_form">
 	<?php	
+	echo "hello";
 	if(isset($account_created)){
 		echo "<h3>" . $account_created . "</h3>";
 	}else{
@@ -11,7 +12,8 @@
 			?>
 			
 			<?php
-			echo form_open('signin/validate_credential');
+			echo "Hello from the sign in page";
+			echo form_open('signin/validate_credentials');
 			echo form_input('username', 'Username');
 			echo form_password('password', '', 'placeholder="Password" class="password"');
 			$url_sent_from = current_url();
